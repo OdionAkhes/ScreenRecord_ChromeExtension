@@ -1,8 +1,8 @@
 /** @format */
 
-import HeroImage1 from "../help_assets/woman_blue.svg";
-import HeroImage2 from "../help_assets/father_son.svg";
-import HeroImage3 from "../help_assets/woman_orange.svg";
+import HeroImage1 from "../help_assets/AdobeStock_400053098 1.png";
+import HeroImage2 from "../help_assets/b638b3c4b53b2fc1fa85d28e0ec45a67.jpeg";
+import HeroImage3 from "../help_assets/woman-using-smartphone-technology 2.png";
 
 const Hero = () => {
   return (
