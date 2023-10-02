@@ -11,7 +11,7 @@ import SingleVideo from "./pages/SingleVideo"; // Ensure you have this component
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <SingleVideo />,
+    element: <Landing />,
     children: [
       {
         index: true,
