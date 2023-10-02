@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "HelpMeOut",
+  "version": "1.0.0",
+  "description": "Capture and record screen",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons-pack/android-chrome-192x192.png",
+      "48": "icons-pack/favicon-32x32.png",
+      "128": "icons-pack/android-chrome-192x192.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "storage"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
