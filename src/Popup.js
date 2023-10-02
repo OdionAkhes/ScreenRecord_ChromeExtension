@@ -6,7 +6,7 @@ import FullScreenIcon from "./help_assets/monitor.svg";
 import CurrentTabIcon from "./help_assets/copy.svg";
 import CameraIcon from "./help_assets/video-camera.svg";
 import AudioIcon from "./help_assets/microphone.svg";
-
+import Recorder from './Recorder';
 const Popup = () => {
   return (
     <div className="p-8  bg-white rounded-2xl shadow-md space-y-6  h-auto">
@@ -55,9 +55,7 @@ const Popup = () => {
         </div>
         <input type="checkbox" className="toggle " disabled checked />
       </div>
-      <button className="btn rounded-xl btn-primary mt-4 w-full  bg-blueColor capitalize ">
-        Start Recording
-      </button>
+   <Recorder/>
     </div>
   );
 }

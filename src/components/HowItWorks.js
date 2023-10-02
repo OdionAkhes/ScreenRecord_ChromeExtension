@@ -28,9 +28,11 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="p-20 bg-white mt-10">
+    <section className="p-20 bg-white mt-10" id="how-it-works">
       <div className="text-center mb-10">
-        <h2 className="text-4xl pb-10 font-bold text-[#120B48]">How It Works</h2>
+        <h2 className="text-4xl pb-10 font-bold text-[#120B48]">
+          How It Works
+        </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 place-items-center mt-4">
         {steps.map((step) => (
