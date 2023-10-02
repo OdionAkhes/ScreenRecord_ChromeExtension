@@ -6,7 +6,7 @@ import Popup from "./Popup";
 import Landing from "./pages/Landing";
 import LoginPage from "./pages/Login";
 import VideoRepository from "./pages/VideoRepository";
-import SingleVideo from "./pages/SingleVideo"; // Ensure you have this component
+import SingleVideo from "./pages/SingleVideo"; 
 
 const router = createBrowserRouter([
   {
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <VideoRepository />,
         children: [
           {
-            path: ":videoId", // dynamic route parameter
+            path: ":videoId", 
             element: <SingleVideo />,
           },
         ],

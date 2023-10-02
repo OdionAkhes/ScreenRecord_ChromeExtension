@@ -2,7 +2,7 @@
 
 import React from "react";
 
-// Placeholder images/icons, replace with your own.
+
 import LogoIcon from "../help_assets/help_logo.svg";
 import avatarPlaceholder from "../help_assets/profile-circle.png";
 import videoPlaceholder from "../help_assets/video frame.png"; 
